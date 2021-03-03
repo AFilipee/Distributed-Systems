@@ -24,6 +24,7 @@ The ForkExec system consists of a hub that serves as an intermediate service bet
 By creating the aforementioned code, I could learn how to use technologies, namely, Web Services applied to distributed systems and guaranteeing non-functional requirements such as security, fault tolerance, scalability, and reconfigurability.
 Taking this into account, I was able to program an application using a distributed name service, be able to analyze requirements, formulate policies, and use techniques to fulfill such requirements, as well as introduce procedures for ensuring fault tolerance in the applications.
 
+________________________________________________________________
 
 ### How to run
 
