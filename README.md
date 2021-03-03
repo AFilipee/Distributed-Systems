@@ -14,8 +14,15 @@ Pedro Antunes 86493 pedroantunesf
 
 André Leitão 87629 AFilipee
 
-For each module, the README file must identify the lead developer and the contributors.
-The leads should be evenly divided among the group members.
+
+## Summary
+
+The code's objective is to develop a system based on SOAP Web Services, for the management of a meal ordering platform. The system allows its users to order meals at different restaurants, as an online food ordering and delivery platform.
+The platform is implemented in Java using JAX-WS (Java API for XML Web Services).
+The ForkExec system consists of a hub that serves as an intermediate service between users and the autonomous services that make up the back-end of the ForkExec system. It receives surveys and orders, and it's responsible for delegating searches to restaurants.
+
+By creating the aforementioned code, I could learn how to use technologies, namely, Web Services applied to distributed systems and guaranteeing non-functional requirements such as security, fault tolerance, scalability, and reconfigurability.
+Taking this into account, I was able to program an application using a distributed name service, be able to analyze requirements, formulate policies, and use techniques to fulfill such requirements, as well as introduce procedures for ensuring fault tolerance in the applications.
 
 
 ### How to run
@@ -73,7 +80,6 @@ There are also multiple _rst_ services, one for each participating restaurant.
 See the project statement for a full description of the domain and the system.
 
 
-
 ### Prerequisites
 
 Java Developer Kit 8 is required running on Linux, Windows or Mac.
@@ -103,6 +109,3 @@ The tests are skipped because they require each server to be running.
 
 * [Maven](https://maven.apache.org/) - Build Tool and Dependency Management
 * [JAX-WS](https://javaee.github.io/metro-jax-ws/) - SOAP Web Services implementation for Java
-
-
-
